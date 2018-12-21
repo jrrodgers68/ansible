@@ -1,0 +1,6 @@
+- name: "install prep"
+  raw: apt-get update
+
+
+- name: "Installing curl"
+  apt: pkg=curl state=present

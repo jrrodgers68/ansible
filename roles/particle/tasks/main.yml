@@ -1,0 +1,6 @@
+- name: "Install Python 2"
+  apt: pkg=python state=present
+
+
+- name: "Installing Particle CLI"
+  shell:  curl -sL https://particle.io/install-cli | bash -
